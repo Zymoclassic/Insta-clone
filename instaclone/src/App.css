@@ -2,3 +2,7 @@ body {
   background-color: var(--light-mode-bg);
   color: var(--dark-mode-text);
 }
+
+section {
+  margin-top: 4rem;
+}

@@ -1,0 +1,7 @@
+.stories_section{
+    margin-top: 4rem;
+}
+
+h1 {
+    background-color: var(--dark-mode-bg);
+}

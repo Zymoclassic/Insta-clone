@@ -3,7 +3,7 @@ import '../assets/styles/navbar.css';
 
 const navbar = () => {
   return (
-    <div className='navContainer'>
+    <section className='navContainer'>
       <nav>
       <a href='index.html' className='navLogo' >Instagram</a>
       </nav>
@@ -54,7 +54,7 @@ const navbar = () => {
 
             </ul>
         </div>
-    </div>
+    </section>
   )
 }
 

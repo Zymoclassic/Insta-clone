@@ -1,11 +1,13 @@
 import './App.css';
-import Navbar from '../src/pages/Navbar.jsx';
+import Navbar from './pages/Navbar.jsx';
+import Stories from './pages/Stories.jsx';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Stories />
     </>
   )
 }
