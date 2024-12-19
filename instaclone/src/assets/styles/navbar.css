@@ -3,14 +3,14 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    background: var(--light-mode-bodycolor);
+    background: var(--dark-mode-bodycolor);
     width: 100%;
     height: 3rem;
     padding: 0.5rem 15rem 0.5rem 15rem;
 }
 
 .navLogo {
-    color: var(--light-mode-text);
+    color: var(--dark-mode-text);
     font-family: var(--logo-font);
     font-size: 1.5rem;
     font-weight: bolder;
@@ -22,7 +22,7 @@
 }
 
 input {
-    background-color: var(--light-mode-input);
+    background-color: var(--dark-mode-input);
     border: none;
     width: 10rem;
     height: 1.5rem;
@@ -48,11 +48,11 @@ input {
 }
 
 .navLink {
-    color: var(--light-mode-icon);
+    color: var(--dark-mode-icon);
 }
 
 .activeLink {
-    color: var(--light-mode-text);
+    color: var(--dark-mode-text);
 }
 
 .navIcon {
