@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/stories.css';
 import { useState } from 'react';
 import { Placeholder } from '../assets/js/file';
-import Storydata from './Storydata';
+import Storydata from './Storydata'; 
 
 const Stories = () => {
 

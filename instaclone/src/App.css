@@ -1,8 +1,4 @@
 body {
-  background-color: var(--light-mode-bg);
+  background-color: var(--dark-mode-bg);
   color: var(--dark-mode-text);
-}
-
-section {
-  margin-top: 4rem;
 }

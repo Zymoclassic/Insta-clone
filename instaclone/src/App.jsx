@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './pages/Navbar.jsx';
-import Stories from './pages/Stories.jsx';
+import SMbody from './pages/SMbody.jsx';
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Stories />
+      <SMbody />
     </>
   )
 }
