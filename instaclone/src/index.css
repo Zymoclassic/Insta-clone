@@ -2,7 +2,7 @@
 
 :root {
   /* color */
-  --dark-mode-bg: rgba(8, 3, 27);
+  --dark-mode-bg: rgba(8, 3, 27, 0.97);
   --dark-mode-input: rgba(50, 50, 50, 0.8);
   --dark-mode-icon: rgb(145, 145, 145);
   --dark-mode-bodycolor: rgba(0, 0, 0);
@@ -51,7 +51,7 @@ img {
 }
 
 section {
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 
