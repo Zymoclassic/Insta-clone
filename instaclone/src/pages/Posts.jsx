@@ -12,8 +12,8 @@ const Posts = () => {
     <section>
       <div className="container postContainer">
       {
-        postData.map(({id, image, user}) => 
-        <Postdata key={id} image={image} user={user} />)
+        postData.map(({id, image, user, caption}) => 
+        <Postdata key={id} image={image} user={user} caption={caption}/>)
       }
       </div>
     </section>
