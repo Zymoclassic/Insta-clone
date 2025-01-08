@@ -1,5 +1,8 @@
 import './App.css';
-import Navbar from '../src/pages/Navbar.jsx';
+
+
+import Navbar from './pages/Navbar.jsx';
+import SMbody from './pages/SMbody.jsx';
 import Mediamodifier from './pages/Mediamodifier.jsx';
 
 function App() {
@@ -8,6 +11,7 @@ function App() {
     <>
       <Navbar />
       <Mediamodifier />
+      <SMbody />
     </>
   )
 }
