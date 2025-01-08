@@ -1,0 +1,41 @@
+.parent {
+    margin-top: 0;
+    background-color: var(--dark-mode-bg);
+    color: var(--dark-mode-text);
+}
+
+.firstchild{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+}
+
+#mmimage{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+
+}
+
+.paragraph{
+    color: rgb(115, 115, 115);
+}
+
+.media{
+    color: var(--dark-mode-text);
+}
+
+.borderlessbutton{
+    color: blue;
+}
+
+
+
+.secondchild{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      gap: 14rem;
+      margin-top: 1rem;
+}
