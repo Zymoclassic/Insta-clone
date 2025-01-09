@@ -1,28 +1,30 @@
 .parent {
-    margin-top: 0;
     background-color: var(--dark-mode-bg);
     color: var(--dark-mode-text);
+    padding: 1rem;
 }
 
 .firstchild{
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 1rem;
 }
 
 #mmimage{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
 
 }
 
 .paragraph{
+    font-size: 0.8rem;
     color: rgb(115, 115, 115);
 }
 
 .media{
+    font-size: 0.8rem;
     color: var(--dark-mode-text);
 }
 
@@ -35,7 +37,7 @@
 .secondchild{
     display: flex;
     justify-content: center;
-      align-items: center;
-      gap: 14rem;
-      margin-top: 1rem;
+    align-items: center;
+    gap: 9rem;
+    margin-top: 1rem;
 }

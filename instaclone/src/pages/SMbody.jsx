@@ -1,6 +1,6 @@
 import React from 'react';
 import Stories from './Stories';
-import Mm from './Mm';
+import Mediamodifier from './Mediamodifier'
 import '../assets/styles/smbody.css'
 import Posts from './Posts';
 
@@ -11,7 +11,7 @@ const SMbody = () => {
         <Stories />
         <Posts />
       </div>   
-      <Mm />
+      <Mediamodifier />
     </div>
   )
 }

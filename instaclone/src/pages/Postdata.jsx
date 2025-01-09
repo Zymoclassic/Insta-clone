@@ -12,7 +12,7 @@ const Postdata = ({id, image, user, caption}) => {
             <img className="postHeader_image" src={image}/>
             <h6 className='postHeader_username'>{user}</h6>
         </div>       
-        <i class='bx bx-dots-horizontal-rounded'></i>
+        <i className='bx bx-dots-horizontal-rounded'></i>
       </div>
       <img className="post_image" src={image}/>
       <div className="postIcon_container">

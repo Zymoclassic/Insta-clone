@@ -1,8 +1,14 @@
 import React from 'react'
 import mediamodifier from '../assets/images/mediamodifier.png';
 import '../assets/styles/mediamodifier.css';
+import { useState } from 'react';
+import { Placeholder } from '../assets/js/file';
+import Suggestions from './Suggestions';
 
 function Mediamodifier() {
+
+  const [data, setData] = useState(Placeholder);
+
   return (
     <section className='parent'>
         <div className='firstchild'>
@@ -24,7 +30,12 @@ function Mediamodifier() {
            </div>
       </div>
 
-        <div></div>
+        <div>
+        {
+        data.map(({id, image, user, caption, followers}) => 
+        <Suggestions key={id} image={image} user={user} caption={caption} followers={followers} />)
+      }
+        </div>
         <div></div>
     </section>
   )
